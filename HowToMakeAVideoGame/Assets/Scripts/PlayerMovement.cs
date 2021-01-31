@@ -7,6 +7,11 @@ public class PlayerMovement : MonoBehaviour
     public float forwardForce = 200f;
     public float sidewaysForce = 500f;
 
+    public void Fastmove(float newSpeed)
+    {
+        forwardForce = newSpeed;
+    }
+
     // Update is called once per frame
     void FixedUpdate()
     {
