@@ -4,22 +4,6 @@ using UnityEngine.UI;
 
 public class MenuScript : MonoBehaviour
 {
-    public Slider slider;
-
-    public void Awake()
-    {
-        slider = GameObject.GetComponent("Speed") as Slider;
-    }
-
-    public void OnEnable()
-    {
-        slider.onValueChanged.AddListener(delegate { sliderCallBack(slider); });
-    }
-
-    public void sliderCallBack(Slider slider)
-    {
-        PlayerController.speed = slider.value;
-    }
 
     public void Play()
     {

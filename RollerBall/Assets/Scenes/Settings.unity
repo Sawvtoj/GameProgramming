@@ -669,8 +669,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1761132667}
-        m_TargetAssemblyTypeName: MenuScript, Assembly-CSharp
+      - m_Target: {fileID: 1761132670}
+        m_TargetAssemblyTypeName: Speed, Assembly-CSharp
         m_MethodName: sliderCallBack
         m_Mode: 2
         m_Arguments:
@@ -2381,6 +2381,7 @@ GameObject:
   - component: {fileID: 1761132668}
   - component: {fileID: 1761132667}
   - component: {fileID: 1761132669}
+  - component: {fileID: 1761132670}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2487,7 +2488,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3edbc2b6dcbdc954ebac9c3d642888f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 383169641}
 --- !u!114 &1761132668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2515,6 +2515,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   toggle: {fileID: 1761994721}
   playerObject: {fileID: 0}
+--- !u!114 &1761132670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761132662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8dd70a2f063c6447adfc3b9247bb453, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 383169641}
 --- !u!1 &1761994719
 GameObject:
   m_ObjectHideFlags: 0
